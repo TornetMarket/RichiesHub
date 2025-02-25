@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richie's Hub</title>
+    <link rel="icon" type="image/png" href="myhub.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="games">Games</a></li>
+                <li><a href="#" id="apps">Apps</a></li>
+                <li><a href="#" id="credits">Credits</a></li>
+            </ul>
+        </nav>
+        <img src="myhub.png" alt="Richie's Hub Logo" class="site-logo">
+        <h1 class="typing-effect">Richie's <span class="highlight">Hub</span></h1>
+    </header>
+
+    <div id="homePage" class="container">
+        <h2>Welcome to <span class="highlight">Richie's Hub</span></h2>
+        <p>
+            I’ve been working as a full-stack developer for a while now, building all sorts of projects— 
+            from portfolio websites and advertisements to full-scale applications and tools. But my interests don’t stop there.
+        </p>
+        <p>
+            I specialize in cybersecurity, but I also love pushing my skills further by experimenting with new technologies. 
+            Recently, I’ve been diving deeper into game development, creating fun and challenging projects that showcase 
+            both my programming and creative abilities.
+        </p>
+        <p>
+            This site is my personal hub, where you can easily find all the projects I’ve worked on, including my latest games 
+            and apps. Whether you’re here to check out my work, try out a game, or just explore, I hope you enjoy what you find.
+        </p>
+        <p>
+            Stay tuned—there’s always something new in the works!
+        </p>
+    </div>
+    
+
+    <div id="gamesPage" class="container hidden">
+        <div class="game-container">
+            <div class="game">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Flappy_Bird_icon.png/220px-Flappy_Bird_icon.png" alt="Flappy Bird">
+                <p>Flappy Bird</p>
+                <button onclick="window.open('https://tornetmarket.github.io/FlappyBird/', '_blank')">Play Game</button>
+            </div>
+            <div class="game">
+                <img src="https://play-lh.googleusercontent.com/1yRPXa0wUlcJLyuGpgbS5kJe1UdNQSanv1OOdtqjI4zRPcvL9MFNUbJ3gE9dlVqAecFW" alt="Archery">
+                <p>Bull's Eye Archery</p>
+                <button onclick="window.open('https://tornetmarket.github.io/Archery/', '_blank')">Play Game</button>
+            </div>
+            <div class="game">
+                <img src="https://games.lol/wp-content/uploads/2019/04/stack-green-squares-gameplay-1024x614.jpg" alt="Only Stack">
+                <p>Only Stack</p>
+                <button onclick="window.open('https://tornetmarket.github.io/OnlyStack/', '_blank')">Play Game</button>
+            </div>
+            <div class="game">
+                <img src="https://i.ytimg.com/vi/toBGMSBqg3g/maxresdefault.jpg" alt="Zombie Horde">
+                <p>Zombie Horde</p>
+                <button onclick="window.open('https://tornetmarket.github.io/ZombieHorde/', '_blank')">Play Game</button>
+            </div>
+            <div class="game">
+                <img src="https://ponggame.io/images/pong-thumbnail.png" alt="Pong2.0">
+                <p>Pong 2.0</p>
+                <button onclick="window.open('https://tornetmarket.github.io/Pong2.0/', '_blank')">Play Game</button>
+            </div>
+            <div class="game">
+                <img src="https://img.freepik.com/free-vector/cartoon-style-dice_78370-2824.jpg" alt="Dice">
+                <p>Roll Dice</p>
+                <button onclick="window.open('https://tornetmarket.github.io/DiceRoll/', '_blank')">Play Game</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="appsPage" class="container hidden">
+        <div class="game">
+            <img src="https://i.imgur.com/0wOfUkml.png" alt="Richie's Toolkit">
+            <p>Richie's Toolkit</p>
+            <button onclick="window.open('https://tornetmarket.github.io/RichiesToolkit/', '_blank')">Use App</button>
+        </div>
+    </div>
+    
+
+    <div id="creditsModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Credits</h2>
+            <p>Developed By <span style="color:#64ffda;">UnknownBlackHat</span></p>
+            <p>Special thanks to:</p>
+            <ul>
+                <li>All the amazing open-source projects</li>
+                <li>Friends and supporters</li>
+                <li>The hacking & cybersecurity community</li>
+            </ul>
+            <p>Follow my work at <a href="https://tornetmarket.github.io/TOR/" target="_blank">My Portfolio</a></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
